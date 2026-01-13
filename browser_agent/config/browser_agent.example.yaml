@@ -1,0 +1,76 @@
+server:
+  # Server bind address. Use 0.0.0.0 to listen on all interfaces.
+  host: "0.0.0.0"
+  # Server port.
+  port: 9091
+
+# Optional: web search config (Serper Google Search)
+web_search_tool:
+  # Serper.dev API key for Google search (optional).
+  serper_key_id: ""
+
+# Browser + LLM config used by /browser_use and /browser_use_agent
+browser_use_tool:
+  # Jina r.jina.ai bearer token (without "Bearer " prefix).
+  jina_api_key: ""
+
+  # Whether to include base64 screenshots in some tool responses (browser state).
+  use_image: true
+  # Resize screenshots to this width before sending to the LLM (pixels).
+  image_resize_width: 1024
+  # Maximum height for screenshots after resize/crop (pixels).
+  image_max_height: 10240
+  # Keep base64 screenshots in agent memory history (may increase token usage).
+  keep_image_in_memory: false
+  # Keep DOM/interactive elements in agent memory history (may increase token usage).
+  keep_dom_in_memory: true
+
+  browser:
+    # Run browser in headless mode.
+    headless: false
+    # Disable browser security features.
+    disable_security: true
+    # Enable Chromium sandbox.
+    chromium_sandbox: true
+    # Optional remote browser connection
+    # Connect to an existing browser via WebSocket (Playwright).
+    wss_url: ""
+    # Connect to an existing browser via CDP.
+    cdp_url: ""
+    proxy:
+      # Proxy server URL, e.g. http://proxy-host:port (optional).
+      server: ""
+      # Proxy username (optional).
+      username: ""
+      # Proxy password (optional).
+      password: ""
+
+  llm:
+    # LLM settings (OpenAI-compatible).
+    # This section maps to OpenManus LLMSettings.
+    # `name` selects which config block under this section is active.
+    name: "browser_agent_llm"
+    browser_agent_llm:
+      # Model name, e.g. "gpt-4o-mini", "gemini-3-pro", etc.
+      model: "gemini-3-pro"
+      # OpenAI-compatible base URL (proxy endpoint).
+      base_url: ""
+      # API type. Keep as "Openai" for OpenAI-compatible APIs.
+      api_type: "Openai"
+      # Optional API version for some providers.
+      api_version: ""
+      # API key/token for the provider (do not commit secrets).
+      api_key: ""
+      # Max tokens for model output.
+      max_tokens: 8192
+      # Sampling temperature.
+      temperature: 1.0
+
+trace:
+  # Whether to persist traces for /browser_use_agent.
+  # When enabled, the agent writes trace.jsonl + images/ under `data_dir/<session_id>/`.
+  enabled: false
+  # Output directory for traces (required when enabled=true).
+  data_dir: ""
+
+
