@@ -38,7 +38,7 @@ We deployed Yunque DeepResearch in the challenging domain of **Intelligent Conte
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <div style="width: 49%;">
-    <video src="assets/gui1.mov" controls width="100%"></video>
+    <video src="https://github.com/user-attachments/assets/066d311c-e7db-4f69-aac1-6b3027401de4" controls width="100%"></video>
     <p align="center">
       <b>Case 1: Automated Pre-labeling</b><br>
       <i>案例 1：自动化预标注</i>
