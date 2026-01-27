@@ -6,7 +6,7 @@
 
 <p align="center">
 <p align="center">
-🤗 <a href="https://huggingface.co/TencentBAC" target="_blank">HuggingFace</a> |
+🤗 <a href="https://huggingface.co/TencentBAC/YunqueAgent" target="_blank">HuggingFace</a> |
 🤖 <a href="https://huggingface.co/TencentBAC" target="_blank">ModelScope</a>  | 📑 <a href="https://huggingface.co/TencentBAC">Tech Report</a>
 
 
@@ -26,6 +26,10 @@ More details can be found in our  📑 [Tech Report](https://huggingface.co/Tenc
 
 Experience Yunque DeepResearch in action. The demonstration below highlights the system's observability and workflow via our interactive visualization interface. The source code for this UI is available in the [DeepResearchUI repository](https://github.com/fzd9752/DeepResearchUI).
 
+Yunque DeepResearch is designed for versatility, empowering a wide range of professional workflows. It excels in scenarios such as Fact-checking, Academic Literature Reviews, Compliance Audits, Investment Due Diligence, and Market Research.
+<br>
+*云雀 DeepResearch 具备强大的通用性，广泛赋能各类专业工作流，深度融入事实核查、文献综述、合规审查、投资尽调及市场调研等核心业务场景，从而实现复杂信息处理的自动化与高效化。*
+
 <div align="center">
   <video src="https://github.com/user-attachments/assets/5ed7b768-c038-4283-a5f6-a0f593e41a51" controls width="90%"></video>
 </div>
@@ -35,23 +39,6 @@ Experience Yunque DeepResearch in action. The demonstration below highlights the
 We deployed Yunque DeepResearch in the challenging domain of **Intelligent Content Moderation**, where it functions as an AI Copilot to significantly enhance review efficiency. 
 <br> 
 *我们将云雀 DeepResearch 部署于智能内容审核领域。系统作为 AI 审核助手，能够精准识别暴力、色情、恐怖、营销广告及违法违规等复杂内容，显著提升审核效率。*
-
-<!-- <div style="display: flex; justify-content: space-between; gap: 10px;">
-  <div style="width: 49%;">
-    <video src="https://github.com/user-attachments/assets/f4ae278a-726c-41e8-aece-6cc979c1fd70" controls width="100%"></video>
-    <p align="center">
-      <b>Case 1: Automated Pre-labeling</b><br>
-      <i>案例 1：自动化预标注</i>
-    </p>
-  </div>
-  <div style="width: 49%;">
-    <video src="https://github.com/user-attachments/assets/285a5153-1759-4c18-a830-560eb0ec21ce" controls width="100%"></video>
-    <p align="center">
-      <b>Case 2: Human Decision Verification</b><br>
-      <i>案例 2：校验人审误标</i>
-    </p>
-  </div>
-</div> -->
   
 <table>
   <tr>
