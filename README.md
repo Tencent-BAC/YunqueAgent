@@ -27,7 +27,7 @@ More details can be found in our  📑 [Tech Report](https://huggingface.co/Tenc
 Experience Yunque DeepResearch in action. The demonstration below highlights the system's observability and workflow via our interactive visualization interface. The source code for this UI is available in the [DeepResearchUI repository](https://github.com/fzd9752/DeepResearchUI).
 
 <div align="center">
-  <video src="assets/framework.mov" controls width="90%"></video>
+  <video src="https://github.com/user-attachments/assets/5ed7b768-c038-4283-a5f6-a0f593e41a51" controls width="90%"></video>
 </div>
 
 <br>
@@ -36,7 +36,7 @@ We deployed Yunque DeepResearch in the challenging domain of **Intelligent Conte
 <br> 
 *我们将云雀 DeepResearch 部署于智能内容审核领域。系统作为 AI 审核助手，能够精准识别暴力、色情、恐怖、营销广告及违法违规等复杂内容，显著提升审核效率。*
 
-<div style="display: flex; justify-content: space-between; gap: 10px;">
+<!-- <div style="display: flex; justify-content: space-between; gap: 10px;">
   <div style="width: 49%;">
     <video src="https://github.com/user-attachments/assets/f4ae278a-726c-41e8-aece-6cc979c1fd70" controls width="100%"></video>
     <p align="center">
@@ -51,7 +51,28 @@ We deployed Yunque DeepResearch in the challenging domain of **Intelligent Conte
       <i>案例 2：校验人审误标</i>
     </p>
   </div>
-</div>
+</div> -->
+  
+<table>
+  <tr>
+    <td width="50%">
+      <video src="https://github.com/user-attachments/assets/f4ae278a-726c-41e8-aece-6cc979c1fd70" controls width="100%"></video>
+      <br>
+      <p align="center">
+        <b>Case 1: Automated Pre-labeling</b><br>
+        <i>案例 1：自动化预标注</i>
+      </p>
+    </td>
+    <td width="50%">
+      <video src="https://github.com/user-attachments/assets/285a5153-1759-4c18-a830-560eb0ec21ce" controls width="100%"></video>
+      <br>
+      <p align="center">
+        <b>Case 2: Human Decision Verification</b><br>
+        <i>案例 2：校验人审误标</i>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
