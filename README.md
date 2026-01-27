@@ -45,7 +45,7 @@ We deployed Yunque DeepResearch in the challenging domain of **Intelligent Conte
     </p>
   </div>
   <div style="width: 49%;">
-    <video src="assets/gui3.mov" controls width="100%"></video>
+    <video src="assets/gui3-1.mp4" controls width="100%"></video>
     <p align="center">
       <b>Case 2: Human Decision Verification</b><br>
       <i>案例 2：校验人审误标</i>
