@@ -7,7 +7,7 @@
 <p align="center">
 <p align="center">
 🤗 <a href="https://huggingface.co/TencentBAC/YunqueAgent" target="_blank">HuggingFace</a> |
-🤖 <a href="https://huggingface.co/TencentBAC" target="_blank">ModelScope</a>  | 📑 <a href="https://huggingface.co/TencentBAC">Tech Report</a>
+🤖 <a href="https://modelscope.cn/organization/TencentBAC" target="_blank">ModelScope</a>  | 📑 <a href="https://arxiv.org/abs/2601.19578">Tech Report</a> |  💻 <a href="https://github.com/Tencent-BAC/YunqueAgent">Code</a>
 
 
 <!-- # Yunque DeepResearch -->
@@ -16,7 +16,7 @@
 
 Deep research has emerged as a transformative capability for autonomous agents, empowering Large Language Models to navigate complex, open-ended tasks. However, realizing its full potential is hindered by critical limitations, including escalating contextual noise in long-horizon tasks, fragility leading to cascading errors, and a lack of modular extensibility. To address these challenges, we introduce **Yunque DeepResearch**, a hierarchical, modular, and robust framework. The architecture is characterized by three key components: (1) a centralized *Multi-Agent Orchestration System* that routes subtasks to an *Atomic Capability Pool* of tools and specialized sub-agents; (2) a *Dynamic Context Management* mechanism that structures completed sub-goals into semantic summaries to mitigate information overload; and (3) a proactive *Supervisor Module* that ensures resilience through active anomaly detection and context pruning. Yunque DeepResearch achieves state-of-the-art performance across a range of agentic deep research benchmarks, including GAIA, BrowseComp, BrowseComp-ZH, and Humanity’s Last Exam. We open-source the framework, reproducible implementations, and application cases to empower the community.
 
-More details can be found in our  📑 [Tech Report](https://huggingface.co/TencentBAC).
+More details can be found in our  📑 [Tech Report](https://arxiv.org/abs/2601.19578).
 
 <p align="center">
   <img width="75%" src="./assets/benchmark.png">
@@ -40,6 +40,7 @@ We deployed Yunque DeepResearch in the challenging domain of **Intelligent Conte
 <br> 
 *我们将云雀 DeepResearch 部署于智能内容审核领域。系统作为 AI 审核助手，能够精准识别暴力、色情、恐怖、营销广告及违法违规等复杂内容，显著提升审核效率。*
   
+<div align="center">
 <table>
   <tr>
     <td width="50%">
@@ -60,6 +61,7 @@ We deployed Yunque DeepResearch in the challenging domain of **Intelligent Conte
     </td>
   </tr>
 </table>
+</div>
 
 <br>
 
